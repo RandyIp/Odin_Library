@@ -1,0 +1,11 @@
+let mylibrary=[];
+
+class book{
+    constructor(title){
+        this.title=title
+    }
+}
+
+function record(book){
+    mylibrary.push(book)
+}
